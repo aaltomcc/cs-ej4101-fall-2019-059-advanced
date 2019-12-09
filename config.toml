@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://aaltomcc.github.io/cs-ej4101-fall-2019-059-advanced/"
 title = "DevOps 059"
 
 theme = "hugo-coder"
