@@ -1,5 +1,5 @@
 baseurl = "http://www.example.com"
-title = "DevOps"
+title = "johndoe"
 
 theme = "hugo-coder"
 
@@ -13,23 +13,23 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-# disqusShortname = "yourdiscussshortname"
+disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "Sudarshan Koirala"
-    description = "Sudarshan Koirala's personal website"
-    keywords = "blog,developer, data engineer, machine learning, artificial intelligence, data science"
-    info = "Passionate Data Scientist, CS Student"
+    author = "John Doe"
+    description = "John Doe's personal website"
+    keywords = "blog,developer,personal"
+    info = "Full Stack DevOps and Magician"
     avatarurl = "images/avatar.jpg"
-    footercontent = "Wondering why the links above doesn't work. Well, I disabled it :)"
+    footercontent = "Enter a text here."
 
     dateformat = "January 2, 2006"
 
-    hideCredits = true
-    hideCopyright = true
+    hideCredits = false
+    hideCopyright = false
 
     # Git Commit in Footer, uncomment the line below to enable it.
-    #commit = "https://github.com/luizdepra/hugo-coder/tree/"
+    commit = "https://github.com/luizdepra/hugo-coder/tree/"
 
     rtl = false
 
@@ -58,27 +58,27 @@ pygmentscodefencesguesssyntax = true
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    #url = "https://github.com/johndoe/"
+    url = "https://github.com/johndoe/"
 [[params.social]]
     name = "Gitlab"
     icon = "fab fa-gitlab"
     weight = 2
-    #url = "https://gitlab.com/johndoe/"
+    url = "https://gitlab.com/johndoe/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
     weight = 3
-    #url = "https://twitter.com/johndoe/"
+    url = "https://twitter.com/johndoe/"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 4
-    #url = "https://www.linkedin.com/in/johndoe/"
+    url = "https://www.linkedin.com/in/johndoe/"
 [[params.social]]
     name = "Medium"
     icon = "fab fa-medium"
     weight = 5
-    #url = "https://medium.com/@johndoe"
+    url = "https://medium.com/@johndoe"
 
 
 [languages]
@@ -108,7 +108,7 @@ pygmentscodefencesguesssyntax = true
             url = "contact/"
 
 
-    #[languages.pt-br]
+    [languages.pt-br]
         languagename = "Português"
         title = "João Ninguém"
 
@@ -140,4 +140,3 @@ pygmentscodefencesguesssyntax = true
             name = "Contato"
             weight = 5
             url = "contact/"
-
